@@ -80,10 +80,15 @@ SystemVerilog 기반 RTL 설계부터 UVM 검증, RISC-V 프로세서, FPGA 영�
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>1. Hardware IP<br>&amp; Verification</strong></td>
+      <td rowspan="2" align="center"><strong>1. Hardware IP<br>&amp; Verification</strong></td>
       <td><a href="https://github.com/minsiuuu-hash/UVM"><strong>UVM Verification Projects</strong></a></td>
       <td>RAM, UART, APB RAM, SPI, I2C를 대상으로 재사용 가능한 UVM 테스트벤치를 구성하고 Scoreboard 및 Coverage 기반으로 검증</td>
       <td><code>SystemVerilog</code><br><code>UVM</code><br><code>VCS</code></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/minsiuuu-hash/UVM/tree/main/AXI"><strong>AXI4-Lite Communication IP &amp; SW Verification</strong></a></td>
+      <td>GPIO, SPI, I2C, UART 주변장치를 AXI4-Lite Slave IP로 설계하고, Vitis C/HAL 소프트웨어와 UVM 테스트벤치를 통해 하드웨어·소프트웨어 연동 검증</td>
+      <td><code>AXI4-Lite</code><br><code>Verilog/SystemVerilog</code><br><code>Vitis C</code><br><code>UVM</code></td>
     </tr>
     <tr>
       <td rowspan="3" align="center"><strong>2. CPU &amp; SoC<br>Architecture</strong><br><sub>RISC-V Processor Series</sub></td>
