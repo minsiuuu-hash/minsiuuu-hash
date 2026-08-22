@@ -50,6 +50,7 @@ SystemVerilog 기반 RTL 설계부터 UVM 검증, RISC-V 프로세서, FPGA 영�
   <img src="https://img.shields.io/badge/Synopsys_VCS-5B2C6F?style=flat-square&logoColor=white" alt="Synopsys VCS" />
   <img src="https://img.shields.io/badge/Basys3-1F6F8B?style=flat-square&logoColor=white" alt="Basys3" />
   <img src="https://img.shields.io/badge/PYNQ--Z2-D97706?style=flat-square&logoColor=white" alt="PYNQ-Z2" />
+  <img src="https://img.shields.io/badge/Zybo_Z7--20-7D3C98?style=flat-square&logoColor=white" alt="Zybo Z7-20" />
   <img src="https://img.shields.io/badge/Jetson-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="NVIDIA Jetson" />
 </p>
 
@@ -71,7 +72,8 @@ SystemVerilog 기반 RTL 설계부터 UVM 검증, RISC-V 프로세서, FPGA 영�
 | [UVM Verification Projects](https://github.com/minsiuuu-hash/UVM) | RAM, UART, APB RAM, SPI, I2C를 대상으로 재사용 가능한 UVM 테스트벤치 구성 및 Scoreboard/Coverage 기반 검증 | SystemVerilog, UVM, VCS |
 | [RISC-V RV32I Multi-Cycle CPU with APB](https://github.com/minsiuuu-hash/RISCV-32I_MULTICYCLE_AMBA_APB) | RV32I 멀티사이클 CPU에 APB Master와 주소 디코더를 연결하고 GPO, GPI, GPIO, FND, UART를 Memory-Mapped I/O로 구성 | SystemVerilog, RISC-V, AMBA APB |
 | [CNN FPGA Implementation](https://github.com/minsiuuu-hash/CNN) | Log2 양자화와 Shift 연산으로 CNN을 RTL에 구현하고 정확도, 추론 시간, 자원 및 전력 사용량 비교 | Verilog, PyTorch, Vivado, PYNQ-Z2 |
-| [Whac-A-Mole FPGA Game](https://github.com/minsiuuu-hash/team_project_dudeoji) | 두 대의 Basys3에서 카메라 색상 감지, UART 이벤트 전송, VGA 게임 로직을 구현하고 핵심 모듈을 UVM으로 검증 | SystemVerilog, UVM, UART, VGA, OpenCV |
+| [Whac-A-Mole FPGA Game](https://github.com/minsiuuu-hash/team_project_dudeoji) `Team Project` | 두 대의 Basys3에서 카메라 색상 감지, UART 이벤트 전송, VGA 게임 로직을 구현하고 핵심 모듈을 UVM으로 검증 | SystemVerilog, UVM, UART, VGA, OpenCV |
+| [Smart Factory with Autonomous AMR](https://github.com/minsiuuu-hash/Smart_Factory_with_AMR) `Team Project` | 자율주행 AMR, FPGA 실시간 영상 처리, Jetson AI, 로봇팔을 연동한 스마트 물류 자동화 시스템 구현 | SystemVerilog, Verilog, C/C++, Python, Vivado, Vitis, Zybo Z7-20 |
 | [UART & Sensor System](https://github.com/minsiuuu-hash/UART_SR04-DHT11_STOPWATCH-WATCH) | UART, FIFO, 초음파 및 온습도 센서, 스톱워치와 시계를 하나의 FPGA 시스템으로 통합 | Verilog, SystemVerilog, Basys3 |
 
 ## Currently
