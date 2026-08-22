@@ -67,13 +67,15 @@ SystemVerilog 기반 RTL 설계부터 UVM 검증, RISC-V 프로세서, FPGA 영�
 
 ## Featured Projects
 
+아래 프로젝트는 모두 팀 프로젝트로 진행했으며, 저장소에 설계 및 검증 과정과 결과를 기록했습니다.
+
 | 프로젝트 | 핵심 내용 | 기술 |
 |---|---|---|
 | [UVM Verification Projects](https://github.com/minsiuuu-hash/UVM) | RAM, UART, APB RAM, SPI, I2C를 대상으로 재사용 가능한 UVM 테스트벤치 구성 및 Scoreboard/Coverage 기반 검증 | SystemVerilog, UVM, VCS |
 | [RISC-V RV32I Multi-Cycle CPU with APB](https://github.com/minsiuuu-hash/RISCV-32I_MULTICYCLE_AMBA_APB) | RV32I 멀티사이클 CPU에 APB Master와 주소 디코더를 연결하고 GPO, GPI, GPIO, FND, UART를 Memory-Mapped I/O로 구성 | SystemVerilog, RISC-V, AMBA APB |
 | [CNN FPGA Implementation](https://github.com/minsiuuu-hash/CNN) | Log2 양자화와 Shift 연산으로 CNN을 RTL에 구현하고 정확도, 추론 시간, 자원 및 전력 사용량 비교 | Verilog, PyTorch, Vivado, PYNQ-Z2 |
-| [Whac-A-Mole FPGA Game](https://github.com/minsiuuu-hash/team_project_dudeoji) `Team Project` | 두 대의 Basys3에서 카메라 색상 감지, UART 이벤트 전송, VGA 게임 로직을 구현하고 핵심 모듈을 UVM으로 검증 | SystemVerilog, UVM, UART, VGA, OpenCV |
-| [Smart Factory with Autonomous AMR](https://github.com/minsiuuu-hash/Smart_Factory_with_AMR) `Team Project` | 자율주행 AMR, FPGA 실시간 영상 처리, Jetson AI, 로봇팔을 연동한 스마트 물류 자동화 시스템 구현 | SystemVerilog, Verilog, C/C++, Python, Vivado, Vitis, Zybo Z7-20 |
+| [Whac-A-Mole FPGA Game](https://github.com/minsiuuu-hash/team_project_dudeoji) | 두 대의 Basys3에서 카메라 색상 감지, UART 이벤트 전송, VGA 게임 로직을 구현하고 핵심 모듈을 UVM으로 검증 | SystemVerilog, UVM, UART, VGA, OpenCV |
+| [Smart Factory with Autonomous AMR](https://github.com/minsiuuu-hash/Smart_Factory_with_AMR) | 자율주행 AMR, FPGA 실시간 영상 처리, Jetson AI, 로봇팔을 연동한 스마트 물류 자동화 시스템 구현 | SystemVerilog, Verilog, C/C++, Python, Vivado, Vitis, Zybo Z7-20 |
 | [UART & Sensor System](https://github.com/minsiuuu-hash/UART_SR04-DHT11_STOPWATCH-WATCH) | UART, FIFO, 초음파 및 온습도 센서, 스톱워치와 시계를 하나의 FPGA 시스템으로 통합 | Verilog, SystemVerilog, Basys3 |
 
 ## Currently
