@@ -1,7 +1,3 @@
-1 file changed
-+99
--0
-github-profile/README.md
 <div align="center">
 
 # 안녕하세요, 정민수입니다.
