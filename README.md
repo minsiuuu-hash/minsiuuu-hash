@@ -72,7 +72,9 @@ SystemVerilog 기반 RTL 설계부터 UVM 검증, RISC-V 프로세서, FPGA 영�
 | 프로젝트 | 핵심 내용 | 기술 |
 |---|---|---|
 | [UVM Verification Projects](https://github.com/minsiuuu-hash/UVM) | RAM, UART, APB RAM, SPI, I2C를 대상으로 재사용 가능한 UVM 테스트벤치 구성 및 Scoreboard/Coverage 기반 검증 | SystemVerilog, UVM, VCS |
-| [RISC-V RV32I Multi-Cycle CPU with APB](https://github.com/minsiuuu-hash/RISCV-32I_MULTICYCLE_AMBA_APB) | RV32I 멀티사이클 CPU에 APB Master와 주소 디코더를 연결하고 GPO, GPI, GPIO, FND, UART를 Memory-Mapped I/O로 구성 | SystemVerilog, RISC-V, AMBA APB |
+| [RISC-V RV32I Single-Cycle CPU](https://github.com/minsiuuu-hash/RISCV-32I_SINGLECYCLE) | Harvard Architecture 기반 RV32I 데이터패스와 제어 장치를 설계하고, C 누적 합 프로그램의 실행 결과와 어셈블리 코드를 비교하여 동작 검증 | SystemVerilog, RISC-V RV32I, Vivado, C |
+| [RISC-V RV32I Multi-Cycle CPU](https://github.com/minsiuuu-hash/RISCV-32I_MULTICYCLE) | 명령어 실행을 Fetch, Decode, Execute, Memory, Write Back 단계로 분리하고 중간 레지스터와 FSM 기반 제어 구조 구현 | SystemVerilog, RISC-V RV32I, Multi-Cycle FSM |
+| [RISC-V RV32I Multi-Cycle CPU with APB](https://github.com/minsiuuu-hash/RISCV-32I_MULTICYCLE_AMBA_APB) | Multi-Cycle CPU에 APB Master와 주소 디코더를 연결하고 GPO, GPI, GPIO, FND, UART를 Memory-Mapped I/O로 구성 | SystemVerilog, RISC-V RV32I, AMBA APB |
 | [CNN FPGA Implementation](https://github.com/minsiuuu-hash/CNN) | Log2 양자화와 Shift 연산으로 CNN을 RTL에 구현하고 정확도, 추론 시간, 자원 및 전력 사용량 비교 | Verilog, PyTorch, Vivado, PYNQ-Z2 |
 | [Whac-A-Mole FPGA Game](https://github.com/minsiuuu-hash/team_project_dudeoji) | 두 대의 Basys3에서 카메라 색상 감지, UART 이벤트 전송, VGA 게임 로직을 구현하고 핵심 모듈을 UVM으로 검증 | SystemVerilog, UVM, UART, VGA, OpenCV |
 | [Smart Factory with Autonomous AMR](https://github.com/minsiuuu-hash/Smart_Factory_with_AMR) | 자율주행 AMR, FPGA 실시간 영상 처리, Jetson AI, 로봇팔을 연동한 스마트 물류 자동화 시스템 구현 | SystemVerilog, Verilog, C/C++, Python, Vivado, Vitis, Zybo Z7-20 |
