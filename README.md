@@ -137,16 +137,6 @@ SystemVerilog 기반 RTL 설계부터 UVM 검증, RISC-V 프로세서, FPGA 영�
 - **RTL Design:** 안정적인 디지털 시스템 설계를 위한 RTL 기본기를 다지고 있습니다.
 - **UVM Verification:** 체계적이고 재사용 가능한 검증을 위한 UVM 기본기를 정리하고 있습니다.
 
-## GitHub Activity
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=minsiuuu-hash&amp;theme=github_dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=minsiuuu-hash&amp;theme=github" />
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=minsiuuu-hash&amp;theme=github" alt="정민수의 GitHub 활동 요약" />
-  </picture>
-</div>
-
 ---
 
 <div align="center">
