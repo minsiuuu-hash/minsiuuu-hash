@@ -134,9 +134,8 @@ SystemVerilog 기반 RTL 설계부터 UVM 검증, RISC-V 프로세서, FPGA 영�
 
 ## Currently
 
-- UVM 테스트벤치의 재사용성과 기능 커버리지 설계를 공부하고 있습니다.
-- RISC-V 기반 프로세서와 AMBA 버스 구조에 대한 이해를 넓히고 있습니다.
-- FPGA에서의 실시간 영상 처리와 하드웨어 가속 구현을 경험하고 있습니다.
+- **RTL Design:** 안정적인 디지털 시스템 설계를 위한 RTL 기본기를 다지고 있습니다.
+- **UVM Verification:** 체계적이고 재사용 가능한 검증을 위한 UVM 기본기를 정리하고 있습니다.
 
 ## GitHub Activity
 
