@@ -69,16 +69,64 @@ SystemVerilog 기반 RTL 설계부터 UVM 검증, RISC-V 프로세서, FPGA 영�
 
 아래 프로젝트는 모두 팀 프로젝트로 진행했으며, 저장소에 설계 및 검증 과정과 결과를 기록했습니다.
 
-| 프로젝트 | 핵심 내용 | 기술 |
-|---|---|---|
-| [UVM Verification Projects](https://github.com/minsiuuu-hash/UVM) | RAM, UART, APB RAM, SPI, I2C를 대상으로 재사용 가능한 UVM 테스트벤치 구성 및 Scoreboard/Coverage 기반 검증 | SystemVerilog, UVM, VCS |
-| [RISC-V RV32I Single-Cycle CPU](https://github.com/minsiuuu-hash/RISCV-32I_SINGLECYCLE) | Harvard Architecture 기반 RV32I 데이터패스와 제어 장치를 설계하고, C 누적 합 프로그램의 실행 결과와 어셈블리 코드를 비교하여 동작 검증 | SystemVerilog, RISC-V RV32I, Vivado, C |
-| [RISC-V RV32I Multi-Cycle CPU](https://github.com/minsiuuu-hash/RISCV-32I_MULTICYCLE) | 명령어 실행을 Fetch, Decode, Execute, Memory, Write Back 단계로 분리하고 중간 레지스터와 FSM 기반 제어 구조 구현 | SystemVerilog, RISC-V RV32I, Multi-Cycle FSM |
-| [RISC-V RV32I Multi-Cycle CPU with APB](https://github.com/minsiuuu-hash/RISCV-32I_MULTICYCLE_AMBA_APB) | Multi-Cycle CPU에 APB Master와 주소 디코더를 연결하고 GPO, GPI, GPIO, FND, UART를 Memory-Mapped I/O로 구성 | SystemVerilog, RISC-V RV32I, AMBA APB |
-| [CNN FPGA Implementation](https://github.com/minsiuuu-hash/CNN) | Log2 양자화와 Shift 연산으로 CNN을 RTL에 구현하고 정확도, 추론 시간, 자원 및 전력 사용량 비교 | Verilog, PyTorch, Vivado, PYNQ-Z2 |
-| [Whac-A-Mole FPGA Game](https://github.com/minsiuuu-hash/team_project_dudeoji) | 두 대의 Basys3에서 카메라 색상 감지, UART 이벤트 전송, VGA 게임 로직을 구현하고 핵심 모듈을 UVM으로 검증 | SystemVerilog, UVM, UART, VGA, OpenCV |
-| [Smart Factory with Autonomous AMR](https://github.com/minsiuuu-hash/Smart_Factory_with_AMR) | 자율주행 AMR, FPGA 실시간 영상 처리, Jetson AI, 로봇팔을 연동한 스마트 물류 자동화 시스템 구현 | SystemVerilog, Verilog, C/C++, Python, Vivado, Vitis, Zybo Z7-20 |
-| [UART & Sensor System](https://github.com/minsiuuu-hash/UART_SR04-DHT11_STOPWATCH-WATCH) | UART, FIFO, 초음파 및 온습도 센서, 스톱워치와 시계를 하나의 FPGA 시스템으로 통합 | Verilog, SystemVerilog, Basys3 |
+<table>
+  <thead>
+    <tr>
+      <th align="center">분야</th>
+      <th align="center">프로젝트</th>
+      <th align="center">핵심 내용</th>
+      <th align="center">주요 기술</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>1. Hardware IP<br>&amp; Verification</strong></td>
+      <td><a href="https://github.com/minsiuuu-hash/UVM"><strong>UVM Verification Projects</strong></a></td>
+      <td>RAM, UART, APB RAM, SPI, I2C를 대상으로 재사용 가능한 UVM 테스트벤치를 구성하고 Scoreboard 및 Coverage 기반으로 검증</td>
+      <td><code>SystemVerilog</code><br><code>UVM</code><br><code>VCS</code></td>
+    </tr>
+    <tr>
+      <td rowspan="3" align="center"><strong>2. CPU &amp; SoC<br>Architecture</strong><br><sub>RISC-V Processor Series</sub></td>
+      <td><a href="https://github.com/minsiuuu-hash/RISCV-32I_SINGLECYCLE"><strong>RV32I Single-Cycle CPU</strong></a></td>
+      <td>Harvard Architecture 기반 RV32I 데이터패스와 제어 장치를 설계하고, C 누적 합 프로그램의 실행 결과와 어셈블리 코드를 비교하여 동작 검증</td>
+      <td><code>RV32I</code><br><code>SystemVerilog</code><br><code>Vivado</code><br><code>C</code></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/minsiuuu-hash/RISCV-32I_MULTICYCLE"><strong>RV32I Multi-Cycle CPU</strong></a></td>
+      <td>명령어 실행을 Fetch, Decode, Execute, Memory, Write Back 단계로 분리하고 중간 레지스터와 FSM 기반 제어 구조 구현</td>
+      <td><code>RV32I</code><br><code>SystemVerilog</code><br><code>Multi-Cycle FSM</code></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/minsiuuu-hash/RISCV-32I_MULTICYCLE_AMBA_APB"><strong>RV32I Multi-Cycle CPU with APB</strong></a></td>
+      <td>Multi-Cycle CPU에 APB Master와 주소 디코더를 연결하고 GPO, GPI, GPIO, FND, UART를 Memory-Mapped I/O로 구성</td>
+      <td><code>RV32I</code><br><code>SystemVerilog</code><br><code>AMBA APB</code><br><code>Memory-Mapped I/O</code></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>3. On-Device AI<br>&amp; Vision</strong></td>
+      <td><a href="https://github.com/minsiuuu-hash/CNN"><strong>CNN FPGA Implementation</strong></a></td>
+      <td>Log2 양자화와 Shift 연산으로 CNN을 RTL에 구현하고 정확도, 추론 시간, 자원 및 전력 사용량 비교</td>
+      <td><code>Verilog</code><br><code>PyTorch</code><br><code>Vivado</code><br><code>PYNQ-Z2</code></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>4. FPGA System<br>Integration</strong></td>
+      <td><a href="https://github.com/minsiuuu-hash/team_project_dudeoji"><strong>Whac-A-Mole FPGA Game</strong></a></td>
+      <td>두 대의 Basys3에서 카메라 색상 감지, UART 이벤트 전송, VGA 게임 로직을 구현하고 핵심 모듈을 UVM으로 검증</td>
+      <td><code>SystemVerilog</code><br><code>UVM</code><br><code>UART</code><br><code>VGA</code><br><code>OpenCV</code></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>5. Robotics &amp;<br>System Integration</strong></td>
+      <td><a href="https://github.com/minsiuuu-hash/Smart_Factory_with_AMR"><strong>Smart Factory with Autonomous AMR</strong></a></td>
+      <td>자율주행 AMR, FPGA 실시간 영상 처리, Jetson AI, 로봇팔을 연동한 스마트 물류 자동화 시스템 구현</td>
+      <td><code>SystemVerilog</code><br><code>C/C++</code><br><code>Python</code><br><code>Vivado/Vitis</code><br><code>Zybo Z7-20</code></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>6. FPGA Peripheral<br>System</strong></td>
+      <td><a href="https://github.com/minsiuuu-hash/UART_SR04-DHT11_STOPWATCH-WATCH"><strong>UART &amp; Sensor System</strong></a></td>
+      <td>UART, FIFO, 초음파 및 온습도 센서, 스톱워치와 시계를 하나의 FPGA 시스템으로 통합</td>
+      <td><code>Verilog</code><br><code>SystemVerilog</code><br><code>UART</code><br><code>FIFO</code><br><code>Basys3</code></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Currently
 
