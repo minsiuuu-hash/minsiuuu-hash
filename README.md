@@ -16,7 +16,7 @@ SystemVerilog 기반 RTL 설계부터 UVM 검증, RISC-V 프로세서, FPGA 영�
 ## About Me
 
 - 디지털 설계 및 검증 엔지니어 취업을 준비하고 있습니다.
-- SystemVerilog/Verilog 기반 RTL 설계와 UVM 검증을 수행했습니다.
+- SystemVerilog/Verilog 기반 RTL과 통신 IP를 설계하고 UVM으로 검증했습니다.
 - RISC-V 및 AMBA 기반 SoC와 FPGA 영상 처리 시스템을 구현했습니다.
 
 ## Tech Stack
