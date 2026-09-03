@@ -4,7 +4,7 @@
 
 **RTL 설계와 검증을 통해 신뢰할 수 있는 디지털 시스템을 만드는 엔지니어를 목표로 합니다.**
 
-SystemVerilog 기반 RTL 설계부터 UVM 검증, RISC-V 프로세서, FPGA 영상 처리까지  
+SystemVerilog 기반 RTL 설계부터 UVM 검증, RISC-V 프로세서, FPGA 영상 처리까지
 직접 구현하고 검증하며 배운 내용을 기록하고 있습니다.
 
 제 GitHub에 방문해 주셔서 감사합니다.
@@ -15,9 +15,9 @@ SystemVerilog 기반 RTL 설계부터 UVM 검증, RISC-V 프로세서, FPGA 영�
 
 ## About Me
 
-- 디지털 설계 및 검증 엔지니어 취업을 준비하고 있습니다.
-- SystemVerilog/Verilog 기반 RTL과 통신 IP를 설계하고 UVM으로 검증했습니다.
-- RISC-V 및 AMBA 기반 SoC와 FPGA 영상 처리 시스템을 구현했습니다.
+* 디지털 설계 및 검증 엔지니어 취업을 준비하고 있습니다.
+* SystemVerilog/Verilog 기반 RTL과 통신 IP를 설계하고 UVM으로 검증했습니다.
+* RISC-V 및 AMBA 기반 SoC와 FPGA 영상 처리, 임베디드 AI 시스템을 구현했습니다.
 
 ## Tech Stack
 
@@ -66,7 +66,7 @@ SystemVerilog 기반 RTL 설계부터 UVM 검증, RISC-V 프로세서, FPGA 영�
 
 ## Featured Projects
 
-아래 프로젝트는 모두 팀 프로젝트로 진행했으며, 저장소에 설계 및 검증 과정과 결과를 기록했습니다.
+아래 프로젝트는 설계 및 검증 과정과 결과를 각 저장소에 기록했습니다.
 
 <table>
   <thead>
@@ -106,10 +106,15 @@ SystemVerilog 기반 RTL 설계부터 UVM 검증, RISC-V 프로세서, FPGA 영�
       <td><code>RV32I</code><br><code>SystemVerilog</code><br><code>AMBA APB</code><br><code>Memory-Mapped I/O</code></td>
     </tr>
     <tr>
-      <td align="center"><strong>3. On-Device AI<br>&amp; Vision</strong></td>
+      <td rowspan="2" align="center"><strong>3. AI &amp;<br>Embedded Vision</strong></td>
       <td><a href="https://github.com/minsiuuu-hash/CNN"><strong>CNN FPGA Implementation</strong></a></td>
       <td>Log2 양자화와 Shift 연산으로 CNN을 RTL에 구현하고 정확도, 추론 시간, 자원 및 전력 사용량 비교</td>
       <td><code>Verilog</code><br><code>PyTorch</code><br><code>Vivado</code><br><code>PYNQ-Z2</code></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/minsiuuu-hash/Hangul_HandLang"><strong>Korean Finger Spelling Recognition</strong></a></td>
+      <td>MobileNetV2 기반 CNN을 활용해 한글 지문자 분류 모델의 데이터셋 구축 및 학습을 수행하고, Jetson 기반 임베디드 환경에서 실시간 지문자 인식 시스템 구현</td>
+      <td><code>Python</code><br><code>MobileNetV2</code><br><code>OpenCV</code><br><code>Jetson</code></td>
     </tr>
     <tr>
       <td align="center"><strong>4. FPGA System<br>Integration</strong></td>
@@ -134,8 +139,8 @@ SystemVerilog 기반 RTL 설계부터 UVM 검증, RISC-V 프로세서, FPGA 영�
 
 ## Currently
 
-- **RTL Design:** 안정적인 디지털 시스템 설계를 위한 RTL 기본기를 다지고 있습니다.
-- **UVM Verification:** 체계적이고 재사용 가능한 검증을 위한 UVM 기본기를 정리하고 있습니다.
+* **RTL Design:** 안정적인 디지털 시스템 설계를 위한 RTL 기본기를 다지고 있습니다.
+* **UVM Verification:** 체계적이고 재사용 가능한 검증을 위한 UVM 기본기를 정리하고 있습니다.
 
 ---
 
